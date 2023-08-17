@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:shopping_application/shared/styles/colors.dart';
 
 ThemeData lightTheme = ThemeData(
-  primarySwatch: Colors.purple,
+  primarySwatch: defaultColor,
   scaffoldBackgroundColor: Colors.white,
   appBarTheme: AppBarTheme(
     titleTextStyle: TextStyle(
@@ -30,9 +31,10 @@ ThemeData lightTheme = ThemeData(
         color: Colors.black,
       )
   ),
+  fontFamily: "janna"
 );
 ThemeData darkTheme = ThemeData(
-  primarySwatch: Colors.deepPurple,
+  primarySwatch: defaultColor,
   scaffoldBackgroundColor: Colors.grey,
   appBarTheme: AppBarTheme(
     titleTextStyle: TextStyle(
@@ -62,4 +64,5 @@ ThemeData darkTheme = ThemeData(
         color: Colors.white,
       )
   ),
+  fontFamily: "janna",
 );

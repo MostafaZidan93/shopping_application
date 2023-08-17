@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_application/on_boarding/on_boarding_screen.dart';
 import 'package:shopping_application/shared/themes.dart';
+
+import 'modules/on_boarding/on_boarding_screen.dart';
 
 void main() {
   runApp(MyApp());
