@@ -9,6 +9,7 @@ class ShopLoginScreen extends StatelessWidget {
 
   var emailController = TextEditingController();
   var passwordController = TextEditingController();
+  //var textFormFieldKey = ScaffoldState<FormState>();
 
   @override
   Widget build(BuildContext context) {

@@ -89,7 +89,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       activeDotColor: defaultColor,
                       dotHeight: 10,
                       dotWidth: 10,
-                      expansionFactor: 2,
+                      expansionFactor: 3,
                       spacing: 5,
                     ),
                 ),
@@ -103,7 +103,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                           {
                             boardController.nextPage(
                               duration: Duration(
-                                  milliseconds: 1000
+                                  milliseconds: 1500
                               ),
                               curve: Curves.fastLinearToSlowEaseIn,
                             );
