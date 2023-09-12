@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_application/shared/network/remote/dio_helper.dart';
 import 'package:shopping_application/shared/themes.dart';
 
 import 'modules/on_boarding/on_boarding_screen.dart';
 
 void main() {
+
+  DioHelper.init();
   runApp(MyApp());
 }
 

@@ -10,6 +10,7 @@ class DioHelper {
         receiveDataWhenStatusError: true,
         headers: {
           "Content-Type": "application/json",
+          "lang": "ar"
         }
       ),
     );
@@ -27,6 +28,11 @@ class DioHelper {
     Map<String, dynamic>? query,
     required Map<String, dynamic> data,
 }) async {
-    dio!.post(path)
+    print("Did Enter Dio main service?????");
+    return dio!.post(
+        url,
+        queryParameters: query,
+        data: data,
+    );
   }
 }
